@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#verification_heading {
+  margin-bottom: 10px;
+}
+
+#verification_subtext {
+  margin-bottom: 20px;
+  color: gray;
+  text-align: center;
+}
+
+.code-container {
+  display: flex;
+  gap: 10px;
+}
+
+.code {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.code:focus {
+  outline: none;
+  border-color: blue;
+}
